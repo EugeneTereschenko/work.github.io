@@ -18,8 +18,8 @@ function myFunction() {
 function myTrianFunction() {
   let str_width = document.getElementById("width_trian").value;
   let str_height = document.getElementById("height_trian").value;
-  document.getElementById("triangle-up").style.width = str_width + "px";
-  document.getElementById("triangle-up").style.height = str_height + "px";
+  document.getElementById("triangle-figure").style.width = str_width + "px";
+  document.getElementById("triangle-figure").style.height = str_height + "px";
 }
 
 function parallFunction() {

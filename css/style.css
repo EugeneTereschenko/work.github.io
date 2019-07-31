@@ -1,19 +1,13 @@
-#triangle-up {
-  position: relative;
-  width:0;
-  border-bottom:solid 50px black;
-  border-right:solid 30px transparent;
-  border-left:solid 30px transparent;
-}
-
-#triangle-up .empty {
-  position: absolute;
-  top:9px;
-  left:-21px;
-  width:0;
-  border-bottom:solid 36px white;
-  border-right:solid 21px transparent;
-  border-left:solid 21px transparent;
+#triangle-figure {
+  background-color: #000000;
+  clip-path: polygon(0 100%, 0 0, 100% 100%, 0 100%, 3% 98%, 95% 98%, 2% 5%, 2% 99%);
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #square {
