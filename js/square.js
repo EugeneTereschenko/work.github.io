@@ -3,11 +3,10 @@
 function myFunction() {
   let str_width = document.getElementById("width_square").value;
   let str_height = document.getElementById("height_square").value;
-  console.log(str_width);
-  console.log(str_height);
   document.getElementById("square").style.width = str_width + "px";
   document.getElementById("square").style.height = str_height + "px";
   let str = str_width * str_height;
+  document.getElementById("Text_out").innerHTML = str;
   console.log("square " + str);
   let integerW = parseInt(str_width, 10);
   let integerH = parseInt(str_height, 10);
